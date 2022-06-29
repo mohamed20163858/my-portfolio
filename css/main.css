@@ -3,14 +3,54 @@ header {
   justify-content: space-between;
   align-items: center;
 }
-.container{
-  margin:0 24px;
+.container {
+  margin: 0 24px;
 }
 header p {
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
   line-height: 28px;
 }
+.section-1 {
+  background-image: url(../images/background.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+}
+.p1 {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172B4D;
+  margin-bottom: 58px;
+}
+.p1 span {
+  display:block;
+  color:#36B37E;
+}
+.p2 {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color:#172B4D;
+  margin-bottom: 58px;
+}
+.icons a {
+  margin-right: 20px;
+}
+
 
