@@ -3,17 +3,20 @@ header {
   justify-content: space-between;
   align-items: center;
 }
- .container {
+
+.container {
   margin: 0 24px;
 }
- header p {
+
+header p {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
   line-height: 28px;
 }
- .section-1 {
+
+.section-1 {
   background-image: url(../images/background.png);
   background-size: contain;
   background-repeat: no-repeat;
@@ -23,11 +26,13 @@ header {
   justify-content: center;
   text-align: center;
 }
- .icons {
+
+.icons {
   display: flex;
   justify-content: center;
 }
- .p1 {
+
+.p1 {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -36,11 +41,13 @@ header {
   color: #172b4d;
   margin-bottom: 58px;
 }
- .p1 span {
+
+.p1 span {
   display: block;
   color: #36b37e;
 }
- .p2 {
+
+.p2 {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -49,6 +56,7 @@ header {
   color: #172b4d;
   margin-bottom: 58px;
 }
- .icons a {
+
+.icons a {
   margin-right: 20px;
 }
