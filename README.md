@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Portfolio: setup and mobile version skeleton
-> building the first 2 section of my personal porfolio for mobile devices. 
+> building the first 2 sections of my personal porfolio for mobile devices. 
 
 
 ## Built With
