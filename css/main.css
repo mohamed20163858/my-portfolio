@@ -2,23 +2,27 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 44px;
 }
 
 .container {
-  margin: 0 24px;
+  margin-left: 24px;
+  margin-right: 24px;
 }
 
-header p {
+header a {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
   line-height: 28px;
+  text-decoration: none;
+  color: #28352F;
 }
 
 .section-1 {
-  background-image: url(../images/background.png);
-  background-size: contain;
+  background-image: url(../images/backgroundMobile.png);
+  background-size: 100%;
   background-repeat: no-repeat;
   min-height: 80vh;
   display: flex;
@@ -57,6 +61,10 @@ header p {
   margin-bottom: 58px;
 }
 
-.icons a {
+.icons {
+    list-style: none;
+}
+.icons li a {
   margin-right: 20px;
 }
+
