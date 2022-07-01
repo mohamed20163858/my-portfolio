@@ -92,6 +92,7 @@ header a {
 
 .work-section h2 {
   font-family: 'Inter', sans-serif;
+  margin-bottom: 0;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -102,7 +103,7 @@ header a {
   align-items: center;
 }
 
-.work-section h2 hr {
+.work-section hr {
   width: 48px;
   height: 4px;
   background: #36b37e;
