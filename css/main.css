@@ -280,16 +280,19 @@ header a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-image: url("../images/rect.png");
+  background-position: right bottom;
+  background-repeat: no-repeat;
 }
 
 .contact-form h2 {
   font-family: 'Inter' , sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 52px;
-text-align: center;
-color: #172B4D;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #172B4D;
 }
 
 .contact-form form ul {
@@ -302,4 +305,34 @@ color: #172B4D;
 
 .contact-form form ul li {
   list-style: none;
+}
+
+.contact-form form ul li input {
+  width: 327px;
+  height: 48px;
+  border: 1px solid #D0D9D4;
+  border-radius: 4px;
+  margin-bottom: 24px;
+}
+
+.contact-form form ul li textarea {
+  width: 327px;
+  height: 114px;
+  border: 1px solid #60C095;
+  border-radius: 4px;
+  margin-bottom: 24px;
+}
+
+.contact-form img{
+  align-self: flex-end;
+}
+
+.contact-form form ul #name::placeholder {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: red;
+  padding: 15px 16px;
 }
