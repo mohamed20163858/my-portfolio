@@ -275,3 +275,31 @@ header a {
   margin-left: 8px;
   margin-bottom: 8px;
 }
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-form h2 {
+  font-family: 'Inter' , sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+text-align: center;
+color: #172B4D;
+}
+
+.contact-form form ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.contact-form form ul li {
+  list-style: none;
+}
