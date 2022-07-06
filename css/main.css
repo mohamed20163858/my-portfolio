@@ -280,9 +280,6 @@ header a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url("../images/rect.png");
-  background-position: right bottom;
-  background-repeat: no-repeat;
 }
 
 .contact-form h2 {
@@ -323,16 +320,46 @@ header a {
   margin-bottom: 24px;
 }
 
-.contact-form img{
-  align-self: flex-end;
-}
-
-.contact-form form ul #name::placeholder {
+.contact-form form ul input::placeholder {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
-  color: red;
+  color: #6b778c;
   padding: 15px 16px;
+}
+
+.contact-form form ul li textarea::placeholder {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #091e42;
+  padding: 12px;
+}
+
+.contact-form button {
+  margin-bottom: 46px;
+}
+
+.contact-form .icons {
+  position: relative;
+}
+
+.contact-form .icons li .rect-icon {
+  position: absolute;
+  top: -125px;
+  right: -110px;
+}
+
+.contact-form p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #42526e;
 }
