@@ -283,13 +283,13 @@ header a {
 }
 
 .contact-form h2 {
-  font-family: 'Inter' , sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
   text-align: center;
-  color: #172B4D;
+  color: #172b4d;
 }
 
 .contact-form form ul {
@@ -307,7 +307,7 @@ header a {
 .contact-form form ul li input {
   width: 327px;
   height: 48px;
-  border: 1px solid #D0D9D4;
+  border: 1px solid #d0d9d4;
   border-radius: 4px;
   margin-bottom: 24px;
 }
