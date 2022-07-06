@@ -177,6 +177,14 @@ header a {
   letter-spacing: 0.03em;
 }
 
+.button-style:hover {
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+}
+
+.button-style:active {
+  background: #008552;
+}
+
 .project-details button {
   width: 122px;
 }
@@ -194,6 +202,16 @@ header a {
   align-items: center;
 }
 
+.contact-form h2 {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #172b4d;
+}
+
 .aboutme .sticker h2 {
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -206,6 +224,16 @@ header a {
   color: #172b4d;
 }
 
+.contact-form p {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #42526e;
+}
+
 .aboutme .sticker p {
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -216,6 +244,10 @@ header a {
   color: #42526e;
   padding-left: 12px;
   padding-right: 12px;
+}
+
+.contact-form button {
+  margin-bottom: 46px;
 }
 
 .aboutme .sticker button {
@@ -274,4 +306,68 @@ header a {
   padding: 12px;
   margin-left: 8px;
   margin-bottom: 8px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-form form ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.contact-form form ul li {
+  list-style: none;
+}
+
+.contact-form form ul li input {
+  width: 327px;
+  height: 48px;
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
+  margin-bottom: 24px;
+}
+
+.contact-form form ul li textarea {
+  width: 327px;
+  height: 114px;
+  border: 1px solid #60c095;
+  border-radius: 4px;
+  margin-bottom: 24px;
+}
+
+.contact-form form ul input::placeholder {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #6b778c;
+  padding: 15px 16px;
+}
+
+.contact-form form ul li textarea::placeholder {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #091e42;
+  padding: 12px;
+}
+
+.contact-form .icons {
+  position: relative;
+}
+
+.contact-form .icons li .rect-icon {
+  position: absolute;
+  top: -125px;
+  right: -110px;
 }
