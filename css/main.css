@@ -177,6 +177,14 @@ header a {
   letter-spacing: 0.03em;
 }
 
+.button-style:hover {
+  box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24);
+}
+
+.button-style:active {
+  background: #008552;
+}
+
 .project-details button {
   width: 122px;
 }

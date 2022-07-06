@@ -16,25 +16,9 @@ that was done by choosing [This Template](https://www.figma.com/file/l7SqJ3ZfkAK
 
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+You can download the page by clicking in the code green button and select Download ZIP or if you are a developer 
+you can get the https link or ssh link just copy it and use your favourite command line git interface and write this 'git clone https://github.com/mohamed20163858/my-portfolio.git' if you use https or write 
+'git clone git@github.com:mohamed20163858/my-portfolio.git' if you use ssh and then after installition you can run the application by just clicking on index.html inside my-portfolio directory 
 
 
 ## Authors
