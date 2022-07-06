@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio: setup and mobile version skeleton
+# Portfolio:  mobile version 
 > building the first 2 sections of my personal porfolio for mobile devices.
 that was done by choosing [This Template](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=48%3A988) from [figma website](https://www.figma.com/files/recent?fuid=1117928134273947127) and exporting the necessary images from it and building my portifolio using html and css 
 
@@ -10,7 +10,7 @@ that was done by choosing [This Template](https://www.figma.com/file/l7SqJ3ZfkAK
 - html , css
 
 
-## Live Demo (if available)
+## Live Demo 
 
 [Live Demo Link](https://mohamed20163858.github.io/my-portfolio/)
 
