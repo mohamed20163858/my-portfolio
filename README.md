@@ -17,8 +17,8 @@ that was done by choosing [This Template](https://www.figma.com/file/l7SqJ3ZfkAK
 
 ## Getting Started
 You can download the page by clicking in the code green button and select Download ZIP or if you are a developer 
-you can get the https link or ssh link just copy it and use your favourite command line git interface and write this 'git clone https://github.com/mohamed20163858/my-portfolio.git' if you use https or write 
-'git clone git@github.com:mohamed20163858/my-portfolio.git' if you use ssh and then after installition you can run the application by just clicking on index.html inside my-portfolio directory 
+you can get the https link or ssh link just copy it and use your favourite command line git interface and write this `git clone https://github.com/mohamed20163858/my-portfolio.git` if you use https or write 
+`git clone git@github.com:mohamed20163858/my-portfolio.git` if you use ssh and then after installition you can run the application by just clicking on index.html inside my-portfolio directory 
 
 
 ## Authors
