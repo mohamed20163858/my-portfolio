@@ -264,6 +264,10 @@ header a {
   margin-bottom: 46px;
 }
 
+.contact-form hr {
+  display: none;
+}
+
 .aboutme .sticker button {
   width: 159px;
 }
@@ -362,6 +366,10 @@ header a {
   border: 1px solid #60c095;
   border-radius: 4px;
   margin-bottom: 24px;
+}
+
+.contact-form .square-icon, .contact-form .final-piece-icon,.contact-form .rect-desktop-icon {
+  display: none;
 }
 
 .contact-form form ul input::placeholder {
@@ -539,4 +547,82 @@ header a {
   .aboutme .card-2 {
     margin: 0;
   }
+
+  .contact-form {
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    margin-top: 164px;
+    column-gap: 24px;
+    position: relative;
+  }
+  
+  .contact-form h2 {
+    width: 463px;
+    height: 256px;
+    font-size: 30px;
+    justify-self: flex-end;
+  }
+
+  .contact-form form {
+    justify-self: flex-start;
+  }
+  
+  .rect-icon {
+    display: none;
+  }
+
+  .contact-form form ul li input, .contact-form form ul li textarea {
+    width: 684px;
+  }
+
+  .contact-form form ul li:last-of-type {
+    align-self: flex-start;
+  }
+
+  .contact-form form ul li button {
+    margin: 0;
+
+  }
+
+  .contact-form hr {
+    width: 100%;
+    height: 1px;
+    background: #dfe1e6;
+    grid-column: 1 / span 2;
+    margin-bottom: 0;
+    margin-top: 225px;
+    display: block;
+  }
+
+  .contact-form .icons {
+    grid-column: 1 / span 2;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  .contact-form p {
+    display: none;
+  }
+
+  .contact-form .square-icon, .contact-form .final-piece-icon,.contact-form .rect-desktop-icon {
+    display: block;
+    position: absolute;
+  }
+
+  .contact-form .rect-desktop-icon {
+    right: 0px;
+    bottom: 74px;
+  }
+
+  .contact-form .square-icon {
+    left: 0;
+    bottom: 70px;
+  }
+
+  .contact-form .final-piece-icon {
+    left: 310px;
+    bottom: 175px;
+    width: 130.28px;
+  }
+  
 }
