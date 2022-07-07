@@ -474,7 +474,6 @@ header a {
     grid-template-columns: repeat(3, auto);
     gap: 32px 24px;
     justify-items: center;
-  
   }
 
   .work-section .work-section-title {
@@ -543,7 +542,7 @@ header a {
     margin-top: 273.58px;
     align-self: flex-start;
   }
-  
+
   .aboutme .sticker .crytal-2 {
     display: none;
   }
@@ -600,7 +599,7 @@ header a {
   .contact-form form {
     justify-self: flex-start;
   }
-  
+
   .rect-icon {
     display: none;
   }
