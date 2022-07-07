@@ -8,6 +8,7 @@ header {
 .desktop-header {
   display: none;
 }
+
 .container {
   margin-left: 24px;
   margin-right: 24px;
@@ -201,7 +202,8 @@ header a {
   width: 122px;
 }
 
-.aboutme, .aboutme .work-skills {
+.aboutme,
+.aboutme .work-skills {
   display: grid;
   grid-template-columns: auto;
   row-gap: 24px;
@@ -210,7 +212,9 @@ header a {
 .aboutme .work-skills {
   justify-content: center;
 }
-.aboutme .sticker, .aboutme .sticker .sticker-info {
+
+.aboutme .sticker,
+.aboutme .sticker .sticker-info {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -368,7 +372,9 @@ header a {
   margin-bottom: 24px;
 }
 
-.contact-form .square-icon, .contact-form .final-piece-icon,.contact-form .rect-desktop-icon {
+.contact-form .square-icon,
+.contact-form .final-piece-icon,
+.contact-form .rect-desktop-icon {
   display: none;
 }
 
@@ -524,7 +530,8 @@ header a {
     margin-top: 192px;
   }
 
-  .sticker .sticker-info h2, .sticker .sticker-info button {
+  .sticker .sticker-info h2,
+  .sticker .sticker-info button {
     margin: 0;
   }
 
@@ -571,7 +578,8 @@ header a {
     display: none;
   }
 
-  .contact-form form ul li input, .contact-form form ul li textarea {
+  .contact-form form ul li input,
+  .contact-form form ul li textarea {
     width: 684px;
   }
 
@@ -604,7 +612,9 @@ header a {
     display: none;
   }
 
-  .contact-form .square-icon, .contact-form .final-piece-icon,.contact-form .rect-desktop-icon {
+  .contact-form .square-icon,
+  .contact-form .final-piece-icon,
+  .contact-form .rect-desktop-icon {
     display: block;
     position: absolute;
   }
