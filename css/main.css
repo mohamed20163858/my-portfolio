@@ -281,7 +281,7 @@ header a {
 }
 
 .aboutme .sticker .crytal-1-desktop {
-  display:none;
+  display: none;
 }
 
 .aboutme .sticker .crytal-2 {
@@ -289,7 +289,7 @@ header a {
 }
 
 .aboutme .sticker .crytal-2-desktop {
-  display:none;
+  display: none;
 }
 
 .aboutme .card-2 {
@@ -412,6 +412,7 @@ header a {
   header {
     display: none;
   }
+
   .desktop-header {
     display: flex;
     margin: 0;
@@ -434,15 +435,19 @@ header a {
     line-height: 20px;
     color: #344563;
   }
+
   .section-1 {
     background-image: url(../images/backgroundDesktop.png);
     min-height: 1000px;
     justify-content: flex-start;
     align-items: center;
   }
-  .section-1 .p1, .section-1 .p2 {
+
+  .section-1 .p1,
+  .section-1 .p2 {
     width: 920px;
-    } 
+  } 
+
   .section-1 .p1 {
     margin-top: 186px;
     font-weight: 800;
@@ -451,11 +456,11 @@ header a {
     letter-spacing: 0.37px;
     margin-bottom: 24px;
   }
+
   .section-1 .p2 {
     line-height: 32px;
     margin-top: 0;
     margin-bottom: 34px;
-    line-height: 32px;
   }
 
   .section-1 .show-below {
@@ -470,9 +475,11 @@ header a {
     gap: 32px 24px;
     justify-items: center;  
   }
+
   .work-section .work-section-title {
     grid-column: 1 / span 3;
   }
+
   .work-section .work-section-title h2 {
     display: block;
     margin-top: 0;
@@ -482,6 +489,7 @@ header a {
   .work-section .work-section-title hr {
     display: none;
   }
+
   .work-section .card {
     margin: 0;
     width: 369px;
@@ -507,7 +515,7 @@ header a {
   }
 
   .aboutme .sticker .crytal-1 {
-    display:none;
+    display: none;
   }
 
   .aboutme .sticker .crytal-2-desktop {
@@ -519,7 +527,7 @@ header a {
   }
   
   .aboutme .sticker .crytal-2 {
-    display:none;
+    display: none;
   }
 
   .aboutme .sticker {
@@ -589,7 +597,6 @@ header a {
 
   .contact-form form ul li button {
     margin: 0;
-
   }
 
   .contact-form hr {
@@ -634,5 +641,4 @@ header a {
     bottom: 175px;
     width: 130.28px;
   }
-  
 }
