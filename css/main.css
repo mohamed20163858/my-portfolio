@@ -473,7 +473,8 @@ header a {
   .work-section {
     grid-template-columns: repeat(3, auto);
     gap: 32px 24px;
-    justify-items: center; 
+    justify-items: center;
+  
   }
 
   .work-section .work-section-title {
@@ -567,7 +568,7 @@ header a {
   .contact-form p {
     display: none;
   }
-  
+
   .sticker .sticker-info p {
     padding-left: 0;
     padding-right: 0;
@@ -578,7 +579,7 @@ header a {
   .aboutme {
     row-gap: 52px;
   }
-
+  
   .aboutme .work-skills {
     grid-template-columns: repeat(3, auto);
     column-gap: 24px;
