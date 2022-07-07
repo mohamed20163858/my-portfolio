@@ -446,8 +446,8 @@ header a {
   .section-1 .p1,
   .section-1 .p2 {
     width: 920px;
-  } 
-
+  }
+  
   .section-1 .p1 {
     margin-top: 186px;
     font-weight: 800;
@@ -579,7 +579,7 @@ header a {
   .aboutme {
     row-gap: 52px;
   }
-  
+
   .aboutme .work-skills {
     grid-template-columns: repeat(3, auto);
     column-gap: 24px;
