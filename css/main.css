@@ -104,6 +104,7 @@ header a {
   flex-flow: column;
   justify-content: center;
   align-items: center;
+  color: #172b4d;
 }
 
 .work-section hr {
@@ -128,7 +129,6 @@ header a {
   background-color: white;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   align-items: center;
 }
 
@@ -138,7 +138,14 @@ header a {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  margin: 0;
+  margin: 16px;
+  width: 295px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #3a4a42;
 }
 
 .project-details ul {
@@ -178,6 +185,8 @@ header a {
   justify-content: center;
   align-items: center;
   letter-spacing: 0.03em;
+  margin-top: 29px;
+  margin-bottom: 24px;
 }
 
 .button-style:hover {
@@ -192,14 +201,16 @@ header a {
   width: 122px;
 }
 
-.aboutme {
+.aboutme, .aboutme .work-skills {
   display: grid;
   grid-template-columns: auto;
-  justify-items: center;
   row-gap: 24px;
 }
 
-.aboutme .sticker {
+.aboutme .work-skills {
+  justify-content: center;
+}
+.aboutme .sticker, .aboutme .sticker .sticker-info {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -261,8 +272,16 @@ header a {
   align-self: flex-end;
 }
 
+.aboutme .sticker .crytal-1-desktop {
+  display:none;
+}
+
 .aboutme .sticker .crytal-2 {
   align-self: flex-start;
+}
+
+.aboutme .sticker .crytal-2-desktop {
+  display:none;
 }
 
 .aboutme .card-2 {
@@ -433,16 +452,91 @@ header a {
   }
 
   .work-section {
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3,auto);
     gap: 32px 24px;
-    justify-items: center;
-    
+    justify-items: center;  
   }
-  .work-section-title {
+  .work-section .work-section-title {
     grid-column: 1 / span 3;
   }
+  .work-section .work-section-title h2 {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
 
+  .work-section .work-section-title hr {
+    display: none;
+  }
   .work-section .card {
+    margin: 0;
+    width: 369px;
+    height: 474px;
+  }
+
+  .project-details h3 {
+    width: 337px;
+    font-family: 'Poppins', sans-serif;
+    color: #172b4d;
+  }
+
+  .project-details ul li {
+    color: #172b4d;
+  }
+
+  .aboutme .sticker .crytal-1-desktop {
+    display: block;
+    width: 269.55px;
+    height: 244.78px;
+    margin-top: 88.22px;
+    align-self: flex-start;
+  }
+
+  .aboutme .sticker .crytal-1 {
+    display:none;
+  }
+
+  .aboutme .sticker .crytal-2-desktop {
+    display: block;
+    width: 288.04px;
+    height: 129.24px;
+    margin-top: 273.58px;
+    align-self: flex-start;
+  }
+  
+  .aboutme .sticker .crytal-2 {
+    display:none;
+  }
+
+  .aboutme .sticker {
+    flex-direction: row-reverse;
+  }
+
+  .aboutme .sticker .sticker-info {
+    margin-top: 192px;
+  }
+
+  .sticker .sticker-info h2, .sticker .sticker-info button {
+    margin: 0;
+  }
+
+  .sticker .sticker-info p {
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+
+  .aboutme {
+    row-gap: 52px;
+  }
+
+  .aboutme .work-skills {
+    grid-template-columns: repeat(3,auto);
+    column-gap: 24px;
+  }
+
+  .aboutme .card-2 {
     margin: 0;
   }
 }
