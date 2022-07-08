@@ -209,10 +209,6 @@ header a {
   row-gap: 24px;
 }
 
-.aboutme {
-  width: 98vw;
-}
-
 .aboutme .work-skills {
   justify-content: center;
 }
@@ -222,7 +218,6 @@ header a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 98vw;
 }
 
 .contact-form h2 {
@@ -333,7 +328,6 @@ header a {
   background-image: url(../images/rect.png);
   background-repeat: no-repeat;
   background-position: right 90%;
-  width: 98vw;
 }
 
 .contact-form form ul {
@@ -561,7 +555,7 @@ header a {
   .aboutme .work-skills {
     grid-template-columns: repeat(3, auto);
     column-gap: 24px;
-    width: 98vw;
+    width: 95vw;
   }
 
   .aboutme .card-2 {
