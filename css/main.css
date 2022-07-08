@@ -45,6 +45,14 @@ header a {
   margin-right: 20px;
 }
 
+.icons li a img {
+  transition: transform 4s ease-in;
+} 
+
+.icons li a img:hover {
+  transform: scale(2);
+}
+
 .p1 {
   font-family: 'Inter', sans-serif;
   font-style: normal;
