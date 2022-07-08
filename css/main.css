@@ -173,7 +173,7 @@ header a {
 
 .button-style {
   padding: 12px;
-  background: #36b37f;
+  background-color: #36b37f;
   border-radius: 4px;
   border: none;
   color: white;
@@ -188,6 +188,7 @@ header a {
   letter-spacing: 0.03em;
   margin-top: 29px;
   margin-bottom: 24px;
+  transition: background-color 2s ease-in ;
 }
 
 .button-style:hover {
@@ -195,7 +196,7 @@ header a {
 }
 
 .button-style:active {
-  background: #008552;
+  background-color: #008552;
 }
 
 .project-details button {
