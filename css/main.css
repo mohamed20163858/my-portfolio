@@ -390,8 +390,7 @@ header a {
   padding: 12px;
 }
 
-@media (max-width: 767px)
-{
+@media (max-width: 767px) {
   .aboutme .sticker {
     background-image: url(../images/crytalUp.png), url(../images/crytalDown.png);
     background-repeat: no-repeat;
@@ -507,7 +506,7 @@ header a {
   }
 
   .project-details h3 {
-    width : 90%;
+    width: 90%;
     font-family: 'Poppins', sans-serif;
     color: #172b4d;
   }
@@ -516,6 +515,7 @@ header a {
     flex-wrap: wrap;
     justify-content: center;
   }
+
   .project-details ul li {
     color: #172b4d;
     margin-left: 3%;
@@ -626,11 +626,13 @@ header a {
     width: 130.28px;
   }
 }
+
 @media  (min-width: 907px) {
   .project-details h3 {
     align-items: center;
   }
 }
+
 @media  (min-width: 768px) and (max-width: 907px) {
   .project-details h3 {
     text-align: center;
