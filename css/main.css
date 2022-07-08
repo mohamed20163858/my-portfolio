@@ -395,7 +395,7 @@ header a {
     background-image: url(../images/crytalUp.png), url(../images/crytalDown.png);
     background-repeat: no-repeat;
     background-position: right top, left bottom;
-    }
+  }
 }
 
 @media (min-width: 768px) {
@@ -627,13 +627,13 @@ header a {
   }
 }
 
-@media  (min-width: 907px) {
+@media (min-width: 907px) {
   .project-details h3 {
     align-items: center;
   }
 }
 
-@media  (min-width: 768px) and (max-width: 907px) {
+@media (min-width: 768px) and (max-width: 907px) {
   .project-details h3 {
     text-align: center;
   }
