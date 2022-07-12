@@ -598,7 +598,8 @@ header a {
 
   .aboutme .sticker {
     justify-content: center;
-    background-image: url(../images/crytalUPDesktop.png), url(../images/crytalDownDesktop.png);
+    background-image: url(../images/crytalUPDesktop.png),
+      url(../images/crytalDownDesktop.png);
     background-repeat: no-repeat;
     background-position: right top, left bottom;
   }
@@ -635,7 +636,7 @@ header a {
   .aboutme .work-skills {
     grid-template-columns: repeat(3, auto);
     -moz-column-gap: 24px;
-         column-gap: 24px;
+    column-gap: 24px;
     width: 95vw;
   }
 
@@ -649,9 +650,10 @@ header a {
     grid-template-columns: repeat(2, auto);
     margin-top: 164px;
     -moz-column-gap: 24px;
-         column-gap: 24px;
+    column-gap: 24px;
     position: relative;
-    background-image: url(../images/square.png), url(../images/finalPiece.png), url(../images/rect-right.png);
+    background-image: url(../images/square.png), url(../images/finalPiece.png),
+      url(../images/rect-right.png);
     background-repeat: no-repeat;
     background-position: left 85%, 23% 73%, right 50%;
   }
