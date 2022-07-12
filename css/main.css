@@ -364,46 +364,6 @@ header a {
   display: none;
 }
 
-.contact-form form ul input::-webkit-input-placeholder {
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 24px;
-  color: #6b778c;
-  padding: 15px 16px;
-}
-
-.contact-form form ul input::-moz-placeholder {
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 24px;
-  color: #6b778c;
-  padding: 15px 16px;
-}
-
-.contact-form form ul input:-ms-input-placeholder {
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 24px;
-  color: #6b778c;
-  padding: 15px 16px;
-}
-
-.contact-form form ul input::-ms-input-placeholder {
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 24px;
-  color: #6b778c;
-  padding: 15px 16px;
-}
-
 .contact-form form ul input::placeholder {
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -412,46 +372,6 @@ header a {
   line-height: 24px;
   color: #6b778c;
   padding: 15px 16px;
-}
-
-.contact-form form ul li textarea::-webkit-input-placeholder {
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 24px;
-  color: #091e42;
-  padding: 12px;
-}
-
-.contact-form form ul li textarea::-moz-placeholder {
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 24px;
-  color: #091e42;
-  padding: 12px;
-}
-
-.contact-form form ul li textarea:-ms-input-placeholder {
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 24px;
-  color: #091e42;
-  padding: 12px;
-}
-
-.contact-form form ul li textarea::-ms-input-placeholder {
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 24px;
-  color: #091e42;
-  padding: 12px;
 }
 
 .contact-form form ul li textarea::placeholder {
@@ -472,7 +392,7 @@ header a {
   }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 768px) {
   header {
     display: none;
   }
@@ -483,7 +403,8 @@ header a {
     padding: 0;
     list-style: none;
     justify-content: center;
-    width: 100%;
+    width: 50%;
+    margin-right: 9%;
   }
 
   .desktop-header li {
@@ -598,8 +519,7 @@ header a {
 
   .aboutme .sticker {
     justify-content: center;
-    background-image: url(../images/crytalUPDesktop.png),
-      url(../images/crytalDownDesktop.png);
+    background-image: url(../images/crytalUPDesktop.png), url(../images/crytalDownDesktop.png);
     background-repeat: no-repeat;
     background-position: right top, left bottom;
   }
@@ -635,7 +555,6 @@ header a {
 
   .aboutme .work-skills {
     grid-template-columns: repeat(3, auto);
-    -moz-column-gap: 24px;
     column-gap: 24px;
     width: 95vw;
   }
@@ -649,11 +568,9 @@ header a {
     display: grid;
     grid-template-columns: repeat(2, auto);
     margin-top: 164px;
-    -moz-column-gap: 24px;
     column-gap: 24px;
     position: relative;
-    background-image: url(../images/square.png), url(../images/finalPiece.png),
-      url(../images/rect-right.png);
+    background-image: url(../images/square.png), url(../images/finalPiece.png), url(../images/rect-right.png);
     background-repeat: no-repeat;
     background-position: left 85%, 23% 73%, right 50%;
   }
