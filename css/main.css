@@ -187,6 +187,7 @@ header a {
 .project-details ul {
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   margin: 0;
   padding: 0;
@@ -202,6 +203,7 @@ header a {
   font-weight: 600;
   font-size: 12px;
   line-height: 16px;
+  margin-bottom: 8px;
   letter-spacing: 0.03em;
   color: #3a4a42;
 }
