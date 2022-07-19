@@ -21,13 +21,12 @@ function removeMenu() {
 }
 function menuAction() {
   addMenu();
-  const closeTab=document.querySelector('.menu-decoration img');
-  const listItems=document.querySelectorAll('.menu-decoration li');
-  for(let i=0; i<listItems.length;++i)
-    {
-        let li=listItems[i];
-        li.addEventListener('click',removeMenu);
-    }
-  closeTab.addEventListener('click',removeMenu); 
+  const closeTab = document.querySelector('.menu-decoration img');
+  const listItems = document.querySelectorAll('.menu-decoration li');
+  for (let i = 0; i < listItems.length; i += 1) {
+    const li = listItems[i];
+    li.addEventListener('click', removeMenu);
+  }
+  closeTab.addEventListener('click', removeMenu);
 }
-menu.addEventListener('click',menuAction);
+menu.addEventListener('click', menuAction);
