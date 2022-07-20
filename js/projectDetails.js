@@ -88,6 +88,14 @@ function redirectLive() {
 function redirectSource() {
   window.location.href = projectsArray[index]['link to source'];
 }
+function checkWindowSize() {
+  const backgroundImage = document.querySelector('.project-pop-up-window .close-item');
+  if (window.innerWidth < 768) {
+    backgroundImage.style.backgroundImage = `url(${projectsArray[index]['featured image'][1]})`;
+  } else {
+    backgroundImage.style.backgroundImage = `url(${projectsArray[index]['featured image'][0]})`;
+  }
+}
 function popupWindowAction() {
   addPopupWindow();
   const h2 = document.querySelector('.project-pop-up-window h2');
@@ -115,6 +123,7 @@ function popupWindowAction() {
   close2.addEventListener('click', closePopupWindow);
   button1.addEventListener('click', redirectLive);
   button2.addEventListener('click', redirectSource);
+  window.addEventListener('resize', checkWindowSize);
 }
 for (let i = 0; i < projectsArray.length; i += 1) {
   index = i;
