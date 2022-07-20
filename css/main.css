@@ -450,7 +450,6 @@ header a {
   }
   
   .project-pop-up-window .close-item {
-    /* background-image: url(../images/projectMobile.jpeg); */
     background-repeat: no-repeat;
     background-size: 100% 100%;
     min-height: 25vh;
@@ -791,7 +790,6 @@ header a {
   }
 
   .project-pop-up-window .close-item {
-    /* background-image: url(../images/pojectDesktop.png); */
     background-repeat: no-repeat;
     background-size: 100% 100%;
     min-height: 15rem;
