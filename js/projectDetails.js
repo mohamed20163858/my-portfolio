@@ -112,6 +112,7 @@ function popupWindowAction() {
   }
   h2.textContent = projectsArray[index].name;
   p.textContent = projectsArray[index].description;
+  ulPopup.innerHTML = '';
   for (let j = 0; j < projectsArray[index].technologies.length; j += 1) {
     const li = document.createElement('li');
     li.textContent = projectsArray[index].technologies[j];
