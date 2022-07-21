@@ -12,4 +12,4 @@ function collectFormData() {
   formDetails.message = contactUsForm.message.value;
   window.localStorage.setItem('data', JSON.stringify(formDetails));
 }
-contactUsForm.addEventListener('submit', collectFormData);
+contactUsForm.addEventListener('change', collectFormData);
