@@ -10,6 +10,6 @@ function collectFormData() {
   formDetails.name = contactUsForm.name.value;
   formDetails.email = contactUsForm.email.value;
   formDetails.message = contactUsForm.message.value;
-  window.localStorage.setItem('data', JSON.stringify(formDetails));
+   window.localStorage.setItem('data', JSON.stringify(formDetails));
 }
 contactUsForm.addEventListener('submit', collectFormData);
