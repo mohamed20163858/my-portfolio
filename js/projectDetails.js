@@ -69,12 +69,13 @@ popup.innerHTML = `
                 <button type="submit" class="button-style">See Source <img src="images/githubWhite.png" alt="github-icon"></button>
             </div>
     `;
+    nosjfewofnjw
 popup.classList.add('hidden');
 document.body.appendChild(popup);
 function addPopupWindow() {
   popup.classList.remove('hidden');
-  main1.style.opacity = 0.1;
-  header1.style.opacity = 0.1;
+  main1.style.opacity = 0.9;
+  header1.style.opacity = 0.9;
 }
 function closePopupWindow() {
   popup.classList.add('hidden');

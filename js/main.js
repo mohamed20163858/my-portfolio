@@ -12,11 +12,9 @@ document.body.appendChild(ul);
 function addMenu() {
   ul.classList.remove('hidden');
   main.classList.add('hidden');
-  header.classList.add('hidden');
 }
 function removeMenu() {
   ul.classList.add('hidden');
-  main.classList.remove('hidden');
   header.classList.remove('hidden');
 }
 function menuAction() {

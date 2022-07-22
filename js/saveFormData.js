@@ -3,7 +3,7 @@ const formDetails = {};
 if (window.localStorage.getItem('data')) {
   const parsedData = JSON.parse(window.localStorage.getItem('data'));
   contactUsForm.name.value = parsedData.name;
-  contactUsForm.email.value = parsedData.email;
+  contactUsForm.email.value = parsedData.name;
   contactUsForm.message.value = parsedData.message;
 }
 function collectFormData() {
