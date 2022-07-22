@@ -5,7 +5,7 @@ invalidMessage.style.cssText = "color: red;font-family: 'Inter', sans-serif;disp
 form.appendChild(invalidMessage);
 form.addEventListener('submit', (event) => {
   event.preventDefault();
-  if (email.value === email.value.toLowerCase()) {
+  if (email.value !== email.value.toLowerCase()) {
     invalidMessage.textContent = 'please type your whole email address in lowercase';
   } else {
     invalidMessage.textContent = '';
