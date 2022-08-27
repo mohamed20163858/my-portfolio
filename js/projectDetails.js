@@ -1,11 +1,11 @@
 const projectsArray = [
   {
-    name: 'Keeping track of hundreds of components',
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    'featured image': ['images/projectDesktop.png', 'images/projectMobile.jpeg'],
+    name: 'Creative Engineers Job Fair Website',
+    description: 'building the Home and About pages of a fantasy engineering services company website that tries to advertise and attract engineering students to join our upcoming job fair. the website design is suitable for mobile and Desktop devices. built with HTML, CSS, and Plain JavaScript hit it with a star if you liked it',
+    'featured image': ['images/creativeEngineersDesktop.png', 'images/creativeEngineersMobile.jpeg'],
     technologies: ['Codekit', 'GitHub', 'Javasript', 'Bootstrap', 'Terminal', 'Codepen'],
-    'link to live version': 'https://mohamed20163858.github.io/my-portfolio/',
-    'link to source': 'https://github.com/mohamed20163858/my-portfolio',
+    'link to live version': 'https://mohamed20163858.github.io/create_engineers_website/',
+    'link to source': 'https://github.com/mohamed20163858/create_engineers_website',
   },
   {
     name: 'Keeping track of hundreds of components',
