@@ -3,7 +3,7 @@ const projectsArray = [
     name: 'Creative Engineers Job Fair Website',
     description: 'building the Home and About pages of a fantasy engineering services company website that tries to advertise and attract engineering students to join our upcoming job fair. the website design is suitable for mobile and Desktop devices. built with HTML, CSS, and Plain JavaScript hit it with a star if you liked it',
     'featured image': ['images/creativeEngineersDesktop.png', 'images/creativeEngineersMobile.jpeg'],
-    technologies: ['Codekit', 'GitHub', 'Javasript', 'Bootstrap', 'Terminal', 'Codepen'],
+    technologies: ['HTML', 'GitHub', 'Javasript', 'CSS', 'Terminal', 'Codepen'],
     'link to live version': 'https://mohamed20163858.github.io/create_engineers_website/',
     'link to source': 'https://github.com/mohamed20163858/create_engineers_website',
   },
@@ -81,11 +81,11 @@ function closePopupWindow() {
   main1.style.opacity = 1;
   header1.style.opacity = 1;
 }
-function redirectLive() {
+function redirectLive(index) {
   window.location.href = projectsArray[index]['link to live version'];
 }
 
-function redirectSource() {
+function redirectSource(index) {
   window.location.href = projectsArray[index]['link to source'];
 }
 function checkWindowSize() {
@@ -96,7 +96,7 @@ function checkWindowSize() {
     backgroundImage.style.backgroundImage = `url(${projectsArray[index]['featured image'][0]})`;
   }
 }
-function popupWindowAction() {
+function popupWindowAction(index) {
   addPopupWindow();
   const h2 = document.querySelector('.project-pop-up-window h2');
   const p = document.querySelector('.project-pop-up-window p');
@@ -122,8 +122,8 @@ function popupWindowAction() {
   const close2 = document.querySelector('.project-pop-up-window > div > div > img');
   close1.addEventListener('click', closePopupWindow);
   close2.addEventListener('click', closePopupWindow);
-  button1.addEventListener('click', redirectLive);
-  button2.addEventListener('click', redirectSource);
+  button1.addEventListener('click', () => redirectLive(index));
+  button2.addEventListener('click', () => redirectSource(index));
   window.addEventListener('resize', checkWindowSize);
 }
 for (let i = 0; i < projectsArray.length; i += 1) {
@@ -148,5 +148,5 @@ for (let i = 0; i < projectsArray.length; i += 1) {
   cardDetials.appendChild(button);
   card.appendChild(cardDetials);
   portfolio.appendChild(card);
-  button.addEventListener('click', popupWindowAction);
+  button.addEventListener('click', () => popupWindowAction(i));
 }
