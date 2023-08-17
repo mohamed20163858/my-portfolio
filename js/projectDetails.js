@@ -133,6 +133,11 @@ for (let i = 0; i < projectsArray.length; i += 1) {
   const h3 = document.createElement('h3');
   const ul = document.createElement('ul');
   const button = document.createElement('button');
+  const img = document.createElement('img');
+  img.classList.add('img-resize');
+  const featuredImageArray = projectsArray[i]['featured image'];
+  const [featuredImageSrc] = featuredImageArray;
+  img.src = featuredImageSrc;
   button.classList.add('button-style');
   button.textContent = 'See Project';
   card.classList.add('card', 'container-2');
@@ -146,6 +151,7 @@ for (let i = 0; i < projectsArray.length; i += 1) {
   cardDetials.appendChild(h3);
   cardDetials.appendChild(ul);
   cardDetials.appendChild(button);
+  card.appendChild(img);
   card.appendChild(cardDetials);
   portfolio.appendChild(card);
   button.addEventListener('click', () => popupWindowAction(i));

@@ -9,6 +9,11 @@ header {
   display: none !important;
 }
 
+.img-resize {
+  width: 100%;
+  height: 252px;
+}
+
 .menu-decoration {
   list-style: none;
   margin: 0;
@@ -170,7 +175,6 @@ header a {
 }
 
 .project-details {
-  margin-top: 252px;
   min-height: 222px;
   background-color: white;
   display: flex;
