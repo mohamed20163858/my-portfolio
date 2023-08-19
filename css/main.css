@@ -175,11 +175,12 @@ header a {
 }
 
 .project-details {
-  min-height: 222px;
+  min-height: 325px;
   background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
 }
 
 .project-details h3 {
@@ -831,7 +832,7 @@ header a {
   .project-pop-up-window .close-item {
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 42vw;
+    height: 65vh;
     position: relative;
     grid-area: photo;
   }
