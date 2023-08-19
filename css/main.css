@@ -9,6 +9,11 @@ header {
   display: none !important;
 }
 
+.img-resize {
+  width: 100%;
+  height: 252px;
+}
+
 .menu-decoration {
   list-style: none;
   margin: 0;
@@ -170,12 +175,12 @@ header a {
 }
 
 .project-details {
-  margin-top: 252px;
-  min-height: 222px;
+  min-height: 325px;
   background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
 }
 
 .project-details h3 {
@@ -827,7 +832,7 @@ header a {
   .project-pop-up-window .close-item {
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 42vw;
+    height: 65vh;
     position: relative;
     grid-area: photo;
   }
